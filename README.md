@@ -1,12 +1,77 @@
-# React + Vite
+# Luma Website – Technical Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed as part of a technical task.  
+It is built using **Vite + React**, styled with **Tailwind CSS**, and enhanced with animations using **Framer Motion**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+[https://luma-virid.vercel.app/](https://luma-virid.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend:** React (with Vite)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Routing:** React Router DOM
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+```
+src/
+ ├── components/   # Reusable UI components
+ ├── assets/       # Images, icons
+ ├── App.jsx       # Main application file
+ └── main.jsx      # Entry point
+ 
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository or extract the `.zip`
+```bash
+git clone <https://github.com/tusharfaldu11/luma-demo.git>
+cd project-folder
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+Now the app will run at:
+👉 `http://localhost:5173/`
+
+### 4. Build for production
+```bash
+npm run build
+```
+
+### 5. Preview production build (optional)
+```bash
+npm run preview
+```
+
+---
+
+## 📱 Features
+- Responsive design for **mobile, tablet, and desktop**.
+- Clean, modern **UI with Tailwind CSS**.
+- Smooth **animations & transitions** with Framer Motion.
+- Component-based architecture for **scalability and maintainability**.
+
+---
+
+## 👨‍💻 Developer
+**Tushar Faldu**  
+Full Stack Developer – MERN & Next.js  
+📧 tusharfaldu11@gmail.com
