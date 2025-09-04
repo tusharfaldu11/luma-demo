@@ -63,7 +63,6 @@ const About = () => {
       animate="animate"
       exit="exit"
     >
-      
       <div className="flex flex-row max-md:flex-col lg:justify-between gap-[340px] max-lg:gap-[221px] max-md:gap-10">
         <header className="mix-blend-difference lg:w-[50%]">
           <h1 className="text-[32px]">
@@ -73,39 +72,34 @@ const About = () => {
 
         <section className="mix-blend-difference lg:w-[50%] max-w-[628px] max-md:w-full">
           <p className="text-[32px] leading-none xl:leading-9 max-lg:text-2xl max-sm:text-xl">
-            Luma handles large-scale electrical work for commercial environments, building systems that integrate seamlessly into the architecture.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </section>
       </div>
 
-      
       <div className="w-full flex flex-col max-lg:gap-12 gap-30 justify-between lg:flex-row">
-        {/* Content appears first on mobile/tablet */}
         <>
-          <section className={`${isContentVisible && isMobileView && !isAboutPage ? 'hidden' : 'flex'}  flex-col gap-4 mix-blend-difference w-1/2 max-lg:w-full max-w-[569px] max-lg:order-2 lg:py-0 justify-end items-center `}>
+          <section className={`${isContentVisible && isMobileView && !isAboutPage ? 'hidden' : 'flex'} flex-col gap-4 mix-blend-difference w-1/2 max-lg:w-full max-w-[569px] max-lg:order-2 lg:py-0 justify-center items-center`}>
             <p className="text-2xl max-lg:text-xl max-sm:text-lg leading-7">
-              We're a team of electricians who take our craft seriously. Since 1989,
-              when two brothers founded Luma with a shared commitment to quality and
-              precision, we've built our reputation one project at a time.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+              sapien nec lorem placerat hendrerit sit amet vel justo.
             </p>
             <p className="text-2xl max-lg:text-xl max-sm:text-lg leading-7">
-              What began as a small family-run operation has grown into a trusted name
-              in large-scale commercial electrical work. Over the years, we've wired
-              office towers, retail fit-outs, industrial facilities and more, always
-              with the same attention to detail and reliability that set us apart from
-              the beginning.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.
             </p>
             <p className="text-2xl max-lg:text-xl max-sm:text-lg leading-7">
-              At Luma, every job matters. Whether we're powering an entire floor of a
-              new development or upgrading systems in an existing space, we do it with
-              pride. That pride has kept our clients coming back for decades.
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores.
             </p>
           </section>
-          {/* Learn More Button - Visible only on tablet/mobile */}
+
           {isMobileView && !isAboutPage && (
             <button
               onClick={toggleContent}
-              className="flex items-center justify-end gap-2 max-lg:order-2  text-lg font-medium hover:opacity-80 transition-opacity lg:hidden"
+              className="flex items-center justify-end gap-2 max-lg:order-2 text-lg font-medium hover:opacity-80 transition-opacity lg:hidden"
             >
               {isContentVisible ? (
                 <>
@@ -120,16 +114,16 @@ const About = () => {
           )}
         </>
 
-        {/* Image appears after content on mobile/tablet */}
-        <div className="mix-blend-difference w-1/2  max-lg:w-full max-lg:order-1 flex flex-col items-end">
+        <div className="mix-blend-difference w-1/2 max-lg:w-full max-lg:order-1 flex flex-col items-end">
           <img
             src={aboutImage}
-            alt="About Luma Electrical"
+            alt="About section placeholder"
             className="object-cover w-full max-w-[628px] h-auto sm:h-[403px] lg:h-[539px]"
           />
         </div>
       </div>
     </motion.div>
+
   );
 };
 

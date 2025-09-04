@@ -14,9 +14,9 @@ export const projects = [
         title: "Gavin Kale Exhibition",
         location: "New York",
         year: 2024,
-        discprion: "We delivered a complete lighting and electrical system for a minimalist conference environment inspired by traditional Japanese architecture. The fit- out required low - profile, integrated lighting across walls, ceiling and joinery all precision - mounted and dimmable.All cabling and conduits were concealed, maintaining the clean geometry of the space.",
+        discprion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         studio: "Studio Lead, Interior Architect",
-        text: "Luma understood exactly what we needed. No visible wires, no last-minute surprises. Their team was precise, quiet, and ahead of schedule."
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
         id: 2,
@@ -25,9 +25,9 @@ export const projects = [
         title: "Museum of Literature",
         location: "Los Angeles",
         year: 2025,
-        discprion: "We delivered a complete lighting and electrical system for a minimalist conference environment inspired by traditional Japanese architecture. The fit- out required low - profile, integrated lighting across walls, ceiling and joinery all precision - mounted and dimmable.All cabling and conduits were concealed, maintaining the clean geometry of the space.",
+        discprion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         studio: "Studio Lead, Interior Architect",
-        text: "Luma understood exactly what we needed. No visible wires, no last-minute surprises. Their team was precise, quiet, and ahead of schedule."
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
         id: 3,
@@ -36,9 +36,9 @@ export const projects = [
         title: "Isamu Conference Room",
         location: "Los Angeles",
         year: 2025,
-        discprion: "We delivered a complete lighting and electrical system for a minimalist conference environment inspired by traditional Japanese architecture. The fit- out required low - profile, integrated lighting across walls, ceiling and joinery all precision - mounted and dimmable.All cabling and conduits were concealed, maintaining the clean geometry of the space.",
+        discprion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         studio: "Studio Lead, Interior Architect",
-        text: "Luma understood exactly what we needed. No visible wires, no last-minute surprises. Their team was precise, quiet, and ahead of schedule."
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
         id: 4,
@@ -47,8 +47,8 @@ export const projects = [
         title: "Inter Miami",
         location: "Miami",
         year: 2023,
-        discprion: "We delivered a complete lighting and electrical system for a minimalist conference environment inspired by traditional Japanese architecture. The fit- out required low - profile, integrated lighting across walls, ceiling and joinery all precision - mounted and dimmable.All cabling and conduits were concealed, maintaining the clean geometry of the space.",
+        discprion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         studio: "Studio Lead, Interior Architect",
-        text: "Luma understood exactly what we needed. No visible wires, no last-minute surprises. Their team was precise, quiet, and ahead of schedule."
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
 ];

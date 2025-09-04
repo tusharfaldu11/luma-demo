@@ -25,7 +25,7 @@ function ContactPage() {
             <footer className="w-full max-w-[1728px] mx-auto flex flex-row justify-between items-center py-10 px-10 xl:px-16 max-lg:px-12 max-md:px-8">
                 <div className="text-center md:text-left">
                     <p className="text-lg md:text-xl lg:text-2xl text-black">
-                        Luma 2025©
+                        Demo Website 2025©
                     </p>
                 </div>
             </footer>

@@ -2,20 +2,20 @@
 
 import { Link } from "react-router-dom";
 
-export function CompanyInfo() {
+export function CompanyInfo({ className }) {
     const contactMethods = [
         "(+1) 123 234 456",
-        "hello@luma.com",
+        "hello@website.com",
         "Facebook",
         "Instagram",
         "LinkedIn"
     ];
 
     return (
-        <div className="flex flex-row max-md:gap-[20px] max-lg:gap-[81px] lg:gap-[70px] 2xl:gap-[100px]">
+        <div className={`flex flex-row max-md:gap-[20px] max-lg:gap-[81px] lg:gap-[70px] 2xl:gap-[100px] ${className}`}>
             <address className="flex flex-col max-lg:order-2 gap-5 lg:gap-10 lg:h-[162px] not-italic">
                 <div className="text-base md:text-lg lg:text-xl xl:text-2xl">
-                    Luma Pty Ltd.
+                    Demo website.
                 </div>
                 <div className="text-base md:text-lg lg:text-xl xl:text-2xl">
                     New York, 5000 <br />  United States

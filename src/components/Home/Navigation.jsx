@@ -152,20 +152,16 @@ export const Navigation = () => {
                                         <img src={LogoGroupWhite} alt="logoBlack" className={`h-[90px] w-[136px] object-contain`} />
                                     </div>
                                 </section>
-                                <CompanyInfo />
+                                <CompanyInfo className="text-white" />
 
                             </div>
                             <footer className="w-full flex flex-row justify-between">
                                 <div className="text-left">
                                     <p className="text-base md:text-xl lg:text-2xl text-white">
-                                        Luma Electrical 2025©
+                                        Demo Website 2025©
                                     </p>
                                 </div>
-                                <div className="text-center md:text-right">
-                                    <p className="text-base md:text-xl lg:text-2xl text-white">
-                                        Site by Mindel
-                                    </p>
-                                </div>
+
                             </footer>
 
                         </div>

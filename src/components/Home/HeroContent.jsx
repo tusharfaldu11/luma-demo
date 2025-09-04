@@ -4,8 +4,8 @@ export const HeroContent = ({ scrollToAbout }) => {
     return (
         <main className="absolute inset-0 flex flex-col items-center justify-between w-full max-lg:px-12 max-md:px-[41px]">
             <div className="w-full flex-grow flex items-center justify-center">
-                <h1 className="text-5xl sm:text-8xl text-white mix-blend-difference text-start lg:text-center">
-                    Powering commercial spaces.
+                <h1 className="text-5xl sm:text-8xl text-white mix-blend-difference animate-pulse text-start lg:text-center">
+                    Powering IT spaces.
                 </h1>
             </div>
 

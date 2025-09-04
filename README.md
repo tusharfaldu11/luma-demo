@@ -56,10 +56,6 @@ Now the app will run at:
 npm run build
 ```
 
-### 5. Preview production build (optional)
-```bash
-npm run preview
-```
 
 ---
 

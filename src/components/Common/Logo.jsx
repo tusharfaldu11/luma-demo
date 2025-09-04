@@ -22,7 +22,7 @@ export const Logo = ({ isScrolled }) => {
             <img src={logoWhite} alt="logoBlack" className={`h-[23px] w-[28px] object-contain`} /> */}
 
             <h1 className={`max-sm:hidden text-[30px] xl:text-[32px] leading-none whitespace-nowrap ${isScrolled ? 'text-black' : 'text-white mix-blend-difference'}`}>
-                Luma
+                Demo Website
             </h1>
         </div>
     );

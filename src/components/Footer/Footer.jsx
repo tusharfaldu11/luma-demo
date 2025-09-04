@@ -18,7 +18,7 @@ const Footer = () => {
         <footer className="w-full flex flex-row justify-between items-center">
           <div className="text-left">
             <p className="text-base md:text-xl lg:text-2xl text-black">
-              Luma 2025©
+              Demo Website 2025©
             </p>
           </div>
         </footer>

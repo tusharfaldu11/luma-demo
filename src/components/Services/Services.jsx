@@ -57,9 +57,8 @@ const Services = () => {
 
                 <section className="mix-blend-difference w-[50%] max-w-[628px] max-md:w-full">
                     <p className="text-[32px] leading-none xl:leading-9 max-lg:text-2xl max-sm:text-xl">
-                        Our services span base build to final fit-out. Whether it's a new
-                        office, retail space, or large-scale refurb, we deliver compliant,
-                        efficient, and carefully executed work.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </section>
             </div>
